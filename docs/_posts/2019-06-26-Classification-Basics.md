@@ -2,14 +2,31 @@
 layout: post
 title: "Classification: Basic Concepts and Techniques"
 ---
-
+*For this I used this book:
+Pan-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar. Introduction
+to Data Mining, Pearson, 2019.
 
 # Classification
 
 Classification is the act or process of dividing things into groups according to their **type**
-## _**Schematic of a classification task:**_
+## _**Basic Concepts**_
 
 ![Classification task]({{site.baseurl}}/images/Classification_task.JPG){:height="120%" width="120%"}
+
+The data for a classification task is a set of instances (records or data you have available).
+For each instance, there is a set of attributes that describe the instance(_x_) and a class label(_y_),
+they are typically represented as a tuple _(x,y)_.
+The attributes can be of any type, but the label must be categorical (discrete) i.e. they must be a finite set of classes. This labels are the ones to be predicted later on.
+
+A *classification model* learn the relationship between the set of attributes and the class label. There are different ways to represent this model (Tree, table of probabilities, etc.).
+Matemathically, the model is a target function "_f_" that has as input the attributes and produces as output the predicted class label for that input. So, a model classifies correctly an instance _(x,y)_ if the output of the target function "_f(x)_" is "_y_"
+
+Some examples of classification tasks are:
+
+* Spam filtering --> **attribute:** features of the message. **Class label:** spam or not spam.
+* Tumor identification --> **attribute:** features from MRI scans. **Class label:** malignant or benign.
+
+This 2 examples are binary classification problems, because the number of class labels are 2. Whenever we have more than 2 classes, then we have a multi-class problem.
 
 ---
 # Basic Concepts
