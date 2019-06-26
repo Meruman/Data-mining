@@ -5,7 +5,7 @@ title: "Classification: Basic Concepts and Techniques"
 
 
 # CLASSIFICATION
-## _**Schematic of a classification task: **_
+## _**Schematic of a classification task:**_
 
 ![Classification task]({{site.baseurl}}/images/Classification_task.JPG){:height="120%" width="120%"}
 
