@@ -5,6 +5,8 @@ title: "Classification: Basic Concepts and Techniques"
 
 
 # CLASSIFICATION
+
+Classification is the act or process of dividing things into groups according to their **type**
 ## _**Schematic of a classification task:**_
 
 ![Classification task]({{site.baseurl}}/images/Classification_task.JPG){:height="120%" width="120%"}
