@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ISEE 2019: Advanced Prototype"
+title: "Classification: Basic Concepts and Techniques"
 ---
 Welcome to our 3rd blog entry of this project. In this entry we will inform you about our progress in programming our advanced prototype of our app *Catch Your Mon€y*
 
