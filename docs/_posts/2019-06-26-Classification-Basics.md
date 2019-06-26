@@ -4,23 +4,15 @@ title: "Classification: Basic Concepts and Techniques"
 ---
 
 
-# CLASSIFICATION
+# Classification
 
 Classification is the act or process of dividing things into groups according to their **type**
 ## _**Schematic of a classification task:**_
 
 ![Classification task]({{site.baseurl}}/images/Classification_task.JPG){:height="120%" width="120%"}
 
-For the advanced prototype we recieved new requirements from the customer. Most of them were related to already existing functionalities of the app, but some were completely new.
-
-* The report screen should contain at least two differnt kind of charts which display the report of the past transaction in a graphical manner.
-* The categories for transactions should have icons for better identification. This includes that the user can use an icon out of a libary for his created categories.
-* Already inserted transaction should be deletable.
-* The user should be able to set a monthly budget.
-* A possibility to send a monthly report via e-mail should be integrated
-
 ---
-## _**Changes in User Stories**_
+# Basic Concepts
 After some discussion with the customer we came up with new user stories for the above mentioned requirements. In the first picture you can see in the top row the old user stories and below the related new ones.
 
 ![Changes in User Stories]({{site.baseurl}}/images/ChangesUserStories.PNG){:height="120%" width="120%"}
@@ -97,3 +89,10 @@ The next story board shows the user story of activating the login for the app. T
 That is all for now. If you want to check out the current version of the app you can download it [here](https://github.com/DBSE-teaching/isee2019-NOOBS.apk/blob/master/Apk%20files/CatchYourMoneyV02.apk).
 
 _**Thanks for visting our blog!**_
+For the advanced prototype we recieved new requirements from the customer. Most of them were related to already existing functionalities of the app, but some were completely new.
+
+* The report screen should contain at least two differnt kind of charts which display the report of the past transaction in a graphical manner.
+* The categories for transactions should have icons for better identification. This includes that the user can use an icon out of a libary for his created categories.
+* Already inserted transaction should be deletable.
+* The user should be able to set a monthly budget.
+* A possibility to send a monthly report via e-mail should be integrated
