@@ -2,10 +2,12 @@
 layout: post
 title: "Classification: Basic Concepts and Techniques"
 ---
-Welcome to our 3rd blog entry of this project. In this entry we will inform you about our progress in programming our advanced prototype of our app *Catch Your Mon€y*
 
-# CHANGES IN REQUIREMENTS
-## _**New Requirements**_
+
+ # CLASSIFICATION
+## _**Schematic of a classification task: **_
+
+![Classification task]({{site.baseurl}}/images/Classification_task.JPG){:height="120%" width="120%"}
 
 For the advanced prototype we recieved new requirements from the customer. Most of them were related to already existing functionalities of the app, but some were completely new.
 
