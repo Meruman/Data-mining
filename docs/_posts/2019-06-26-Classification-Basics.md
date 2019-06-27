@@ -44,9 +44,9 @@ The process of classification involves 2 steps: applying the learning algorithm 
 
 The performance of a classifier can be evaluated by comparing the predicted labels against the true labels of the instances. This information can be analyzed in a table called **Confusion matrix**
 
-|         | Predicted class          |
-|         |--------------------------|
-|         | Class =1      | Class =2 |
-| ------- |:-------------:| --------:|
-| Actual  | right-aligned | $1600    |
-| class   | centered      |   $12    |
+|               | Predicted class          |
+|               |--------------------------|
+|               | Class =1      | Class =2 |
+| -------       |:-------------:| --------:|
+| Actual class  | right-aligned | $1600    |
+|               | centered      |   $12    |
