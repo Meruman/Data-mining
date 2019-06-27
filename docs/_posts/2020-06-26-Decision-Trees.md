@@ -52,4 +52,3 @@ The tree initially contains a single root node that contains all the training in
 
 * ***Continuous attributes*** --> 
 
-\forall x \in X, \quad \exists y \leq \epsilon
