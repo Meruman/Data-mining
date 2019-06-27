@@ -41,7 +41,10 @@ The tree initially contains a single root node that contains all the training in
 
 ![Binary]({{site.baseurl}}/images/Binary.JPG)
 
-* ***Nominal attributes*** --> Nominal attributes can have many values, so they can be expressed in 2 ways: as a *Multiway split* (or "bushy"), or a *binary split* 
+* ***Nominal attributes*** --> Nominal attributes can have many values, so they can be expressed in 2 ways: as a *Multiway split* (or "bushy"), or a *binary split*.
 
 ![Multiway_Binary]({{site.baseurl}}/images/Multiway_Binary.JPG)
 
+* ***Ordinal attributes*** --> Can also produce binary or bushy splits, but can only be grouped as long as the grouping does not violate the order property of the attribute values.
+
+![Ordinal]({{site.baseurl}}/images/Ordinal.JPG)
