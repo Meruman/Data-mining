@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Decision Tree Classifier"
+include: \usepackage{amsmath}
 ---
 *For this I used this book:
 Pan-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar. Introduction
@@ -48,3 +49,7 @@ The tree initially contains a single root node that contains all the training in
 * ***Ordinal attributes*** --> Can also produce binary or bushy splits, but can only be grouped as long as the grouping does not violate the order property of the attribute values.
 
 ![Ordinal]({{site.baseurl}}/images/Ordinal.JPG)
+
+* ***Continuous attributes*** --> 
+
+\forall x \in X, \quad \exists y \leq \epsilon
