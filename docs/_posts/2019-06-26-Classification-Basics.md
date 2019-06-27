@@ -44,9 +44,9 @@ The process of classification involves 2 steps: applying the learning algorithm 
 
 The performance of a classifier can be evaluated by comparing the predicted labels against the true labels of the instances. This information can be analyzed in a table called **Confusion matrix**.
 
-![Confusion matrix]({{site.baseurl}}/images/Confusion_matrix.JPG){:height="80%" width="100%"}
+![Confusion matrix]({{site.baseurl}}/images/Confusion_matrix.JPG)
 
 Here, each entry _fij_ denotes the number of instances from class _i_ predicted to be of class _j_. For example, _f01_ is the number of instances from class 0 incorrectly predicted as class 1.
 From this we can get an **evaluation metric** such as accuracy which is computed as:
 
-![Accuracy]({{site.baseurl}}/images/Accuracy.JPG){:height="80%" width="100%"}
+![Accuracy]({{site.baseurl}}/images/Accuracy.JPG)
