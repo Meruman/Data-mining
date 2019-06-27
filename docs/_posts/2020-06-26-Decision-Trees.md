@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Classification: Basic Concepts and Techniques"
+title: "Decision Tree Classifier"
 ---
 *For this I used this book:
 Pan-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar. Introduction
 to Data Mining, Pearson, 2019.
 
-## Classification
+## Decision Tree
 
 Classification is the act or process of dividing things into groups according to their **type**
 
