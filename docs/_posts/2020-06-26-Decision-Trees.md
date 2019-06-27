@@ -52,3 +52,14 @@ The tree initially contains a single root node that contains all the training in
 
 * ***Continuous attributes*** --> 
 
+## Selecting an attribute
+
+### Impurity
+
+Impurity Measure for a Single Node
+The impurity of a node measures how dissimilar the class labels are for the data
+instances belonging to a common node.
+
+![Impurity_measures]({{site.baseurl}}/images/Impurity_measures.JPG)
+
+![Impurity_comparison]({{site.baseurl}}/images/Impurity_comparison.JPG)
