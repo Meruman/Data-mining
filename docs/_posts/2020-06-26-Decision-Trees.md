@@ -26,7 +26,7 @@ Every leafnode is associated with a class label, the other nodes contains **attr
 
 The tree initially contains a single root node that is associated with all the training instances. If a node is associated with instances from more than one class, it is expanded using an attribute test condition known as ***splitting criterion***. When we split the node, a child leaf node is created for each outcome of the attribute test condition and the instances of the parent node are distributed to the respective children. This node expansion step can then be recursively applied to each child node, as long as it has labels of more than one class. This stops whenever all the instances of a leaf node have identical class labels. Each leaf node is assigned the most frequent class label of it's instances.
 
-![Hunt's Algorithm]({{site.baseurl}}/images/Hunts_algorithm.JPG)
+![Hunt's Algorithm]({{site.baseurl}}/images/Hunts_Algorithm.JPG)
 
 ### Hunt's algorithm assumptions
 
