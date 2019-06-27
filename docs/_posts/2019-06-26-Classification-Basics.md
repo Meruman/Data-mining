@@ -39,3 +39,14 @@ A classification model is used as:
 ## General Framework for Classification
 
 Classification is the task of assigning labels to unlabeled data instances and a **classifier** is used to perform such task.
+The model is created using a given set of instances, known as **training set**, which contains attribute values and class labels for each instance. The way of learning a classification model is known as **learning algorithm**.
+The process of classification involves 2 steps: applying the learning algorithm to a training data and learn the model (also known as **induction**), and then applying the model to assign labels to a test data set (also known as **deduction**).
+
+The performance of a classifier can be evaluated by comparing the predicted labels against the true labels of the instances. This information can be analyzed in a table called **Confusion matrix**
+
+|         | Predicted class          |
+|         |---------------|----------|
+|         | Class =1      | Class =2 |
+| ------- |:-------------:| --------:|
+| Actual  | right-aligned | $1600    |
+| class   | centered      |   $12    |
