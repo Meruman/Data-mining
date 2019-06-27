@@ -17,3 +17,10 @@ A decision tree has 3 types of nodes:
 Every leafnode is associated with a class label, the other nodes contains **attribute test conditions** that usually use one attribute per node.
 
 ![Decision tree]({{site.baseurl}}/images/DT.JPG)
+
+---
+
+## A Basic Algorithm to Build a Decision Tree
+
+### Hunt's Algorithm
+
