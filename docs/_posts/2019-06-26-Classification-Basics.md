@@ -58,5 +58,3 @@ Another metric we can use is the **error rate**, which can be calculated as foll
 The learning algorithms are design to learn models that have the highest accuracy or the lowest error rate when applied to the test set.
 
 ---
-
-
