@@ -58,4 +58,6 @@ Another metric we can use is the **error rate**, which can be calculated as foll
 
 The learning algorithms are design to learn models that have the highest accuracy or the lowest error rate when applied to the test set.
 
+After this "Learning Phase", the classifier can be used as an "Oracle" to predict the label of unlabeled instances never seen before, this is known as "Query phase".
+
 ---
