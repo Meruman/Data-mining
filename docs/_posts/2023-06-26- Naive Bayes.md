@@ -7,6 +7,18 @@ include: \usepackage{amsmath}
 Pan-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar. Introduction
 to Data Mining, Pearson, 2019.
 
-## Model Overfitting
+## Bayes Theorem
 
-Even if a model fits well over the training data, it can still show poor generalization performance, a phenomenon known as model overfitting.
+Bayes Theorem:
+
+![Bayes_theorem]({{site.baseurl}}/images/Bayes_theorem.JPG)
+
+![Bayes_theorem2]({{site.baseurl}}/images/Bayes_theorem2.JPG)
+
+![Bayes_theorem3]({{site.baseurl}}/images/Bayes_theorem3.JPG)
+
+## Naive Bayes Classifier
+
+estimates the class-conditional probability by assuming
+that the attributes are conditionally independent, given the class label g. The
+conditional independence assumption can be formally stated as follows:
