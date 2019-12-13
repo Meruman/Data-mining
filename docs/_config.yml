@@ -6,5 +6,5 @@ permalink: /blog/:year/:month/:day/:title/
 theme: jekyll-theme-minimal
 title: Data Mining
 description: This is a blog to introduce basic concepts of Data Mining
-logo: /images/NOOBS_Logo.png
+logo: /images/logo.jpg
 show_downloads: false
